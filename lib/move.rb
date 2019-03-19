@@ -14,7 +14,7 @@ end
 
 
 def move(board, index, player="X")
-  board.insert(index,player)
+  board.unshift(player)
 end
 
 board = [" ", " ", " "]

@@ -14,6 +14,7 @@ end
 
 
 def move(board, index, player="X")
+  board << player
 end
 
 board = [" ", " ", " "]
